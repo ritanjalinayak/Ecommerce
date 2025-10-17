@@ -13,7 +13,7 @@ def test_login(setup_driver):
     
     driver.find_element(By.CLASS_NAME,"wp-block-button__link").click()
 
-    obj1=CommonCode(driver,"Ritanjali","riytte34343")
+    obj1=CommonCode(driver,"gayatri","riytte34343")
     obj1.invild_check()
     
     # driver.find_element(By.NAME,"username").send_keys("student")
