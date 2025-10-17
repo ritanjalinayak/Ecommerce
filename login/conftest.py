@@ -10,7 +10,7 @@ def setup_driver():
     time.sleep(3)
     yield driver
     time.sleep(4)
-    print("login test has been done ")
+    # print("login test has been done ")
     # time.sleep(3)
     driver.quit()
     
